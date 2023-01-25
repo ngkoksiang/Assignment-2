@@ -74,6 +74,8 @@ img {vertical-align: middle;}
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
+
+/* 'latest product, link to shop' */
 .context{
     float:right;
     padding:5%;
