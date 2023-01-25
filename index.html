@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Ecommerce Website</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="normalise.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="home.css">
+<script src="slideshow.js"></script>
 </head>
 <body>
-  <header> Group name </header>
-  <main>
+    <header> Group name </header>
     <nav>
-      <ul>
-        <div class="topnav">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#shop">Shop</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#myaccount">My Account</a></li>
-        <li><a href="#cart">Cart</a></li>
-      </ul>
-    </nav>
-  
-        <div class="product-card">
-            <div class="product-name">Snow Bear Soap</div>
-            <img src="media/snowbear.jpg" class="Product1">
-            <div> product info</div>
-            <div class="product-price">$25.00</div>
-            <button class="add-to-cart-btn">Add to Cart</button>
-        </div>
-        <div class="product-card">
-            <div class="product-name">Product 2</div>
-            <img src="media/snowbear.jpg" class="Product1">
-            <div class="product-price">$35.00</div>
-            <button class="add-to-cart-btn">Add to Cart</button>
-        </div>
-  </main>
+        <ul>
+          <div class="topnav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#myaccount">My Account</a></li>
+          <li><a href="#cart">Cart</a></li>
+        </ul>
+      </nav>
+<div class= "card">
+<div class="slideshow-container">
 
-  <footer>
-    <p>My Ecommerce Website</p>
-  </footer>
+<div class="mySlides fade">
+  <img src="media/snowbear.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="media/snowbear.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="media/snowbear.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+
+<a class="context" href="shop.html">Check out our latest products here!</a>
+<br>
+</div>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</div>
 </body>
-</html>
+</html> 

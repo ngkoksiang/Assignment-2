@@ -3,7 +3,6 @@
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
 color: #f2f2f2;
 display: flex;
@@ -58,13 +57,14 @@ padding: 20px;
 /* Style for product cards */
 .product-card {
 background-color: #b4a4a4;
-border: 1px solid #E5E5E5;
+border: 2px solid #E5E5E5;
 padding: 20px;
 margin-bottom: 20px;
 }
 .Product1{
 height:12%;
 width:12%;
+display: flex;
 }
 /* Style for product name */
 .product-name {
