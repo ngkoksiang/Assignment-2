@@ -62,9 +62,20 @@ border: 2px solid #E5E5E5;
 padding: 20px;
 margin-bottom: 20px;
 }
+
+.img-and-info{
+  display:flex;
+}
+
+.product-info{
+  float:right;
+  padding:3%;
+  font-size: 20px;
+}
+
 .Product1{
-height:12%;
-width:12%;
+height:14%;
+width:14%;
 display: flex;
 }
 /* Style for product name */
