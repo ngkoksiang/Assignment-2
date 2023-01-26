@@ -89,6 +89,13 @@ padding: 10px 20px;
 border: none;
 cursor: pointer;
 }
+.add-to-cart-btn:hover {background-color: #334f34}
+
+.add-to-cart-btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
 /* Style for footer */
 footer {
