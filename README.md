@@ -13,8 +13,10 @@ Mobile View: https://xd.adobe.com/view/c970b14c-7712-4542-8c03-b7b1fd410493-9c23
 As a student, I would like to spend my time efficiently. Having an online website that is easily accessible at any time, from anywhere, without having to leave their homes can be especially useful for me as  my schedules are usually packed.
 
 # Existing features
-Nav bar - allows users to navigate between the webpages easily
-Add to cart button -  add item of choice to cart and calculate total price
+Nav bar - allows users to navigate between the webpages easily, 
+Add to cart button -  add item of choice to cart and calculate total price, 
+Homepage - attractive page to pull in more users, 
+Cart page - for users to checkout for purchase
 
 # Features left to implement
 Horizontal scroll arrows - allows users to scroll between images
