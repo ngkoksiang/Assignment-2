@@ -1,38 +1,3 @@
-
-<<<<<<< HEAD:css/style.css
-.topnav a {
-color: #f2f2f2;
-display: flex;
-align-items: center;
-justify-content:space-between;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
-font-family: verdana,sans-serif;
-}
-
-/* Change the color of links on hover*/
-.topnav a:hover {
-background-color: #ddd;
-color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-background-color: #04AA6D;
-color: white;
-}
-.topnav li{
-list-style: none;
-display: inline-block;
-}
-li img{
-height: 10%;
-width: 10%;
-}
-=======
->>>>>>> 6a8f519e34f752683518788491005ad71a666c56:css/shop.css
 /* Ecommerce website CSS */
 
 /* Set background color for entire page */
