@@ -1,3 +1,6 @@
+body{
+    background-color: #faf7c8;
+}
 .signup-btn {
     width: 200px;
     padding: 15px 0;
@@ -12,6 +15,9 @@
     position: relative;
     overflow: hidden;
   }
+#buttoncolor{
+    color:white;
+}
   .login-btn {
     width: 200px;
     padding: 15px 0;
@@ -220,4 +226,9 @@
     grid-column: span 2;
     margin-bottom: 10px;
   }
-  
+  footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    }
