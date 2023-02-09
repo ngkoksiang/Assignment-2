@@ -17,9 +17,10 @@ As a student, I would like to spend my time efficiently. Having an online websit
 * Add to cart button -  add item of choice to cart and calculate total price
 * Homepage - attractive page to pull in more users
 * Cart page - for users to checkout for purchase
+* Scroll up Arrow - for users to scroll up easily on long pages
+* Footer - for easy access to necessary information
 
 ## Features left to implement
-* Horizontal scroll arrows - allows users to scroll between images
 * Gamification feature - more interactive and fun for users
 
 ## Technologies Used
