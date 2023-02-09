@@ -1,0 +1,86 @@
+body {
+    background-color: #faf7c8;
+}
+
+section {
+    padding: 5%;
+}
+
+#contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: auto;
+    height: 20px;
+    padding-right: 22px;
+}
+
+#contact-info .details {
+    width: 40%;
+}
+
+#contact-info .details span, #form-details form span {
+    font-size: 12px;
+}
+
+#contact-info .details h2, #form-details form h2 {
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact-info .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#contact-info .details li {
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact-info .details li p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#contact-info .map {
+    width: 55%;
+    height: 400px;
+}
+
+#contact-info .map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#form-details form {
+    padding: 0 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-details form input, #form-details form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+.submitbtn {
+    background-color: #222;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
