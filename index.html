@@ -8,13 +8,15 @@
 <script src="slideshow.js"></script>
 </head>
 <body>
-  <div class="topnav">
+  <div class="navbar">
+    <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="shop.html">Shop</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#myaccount">My Account</a></li>
     <li><a href="cart.html">Cart</a></li>
+  </ul>
   </div>
 <div class= "card">
 <div class="slideshow-container">
@@ -32,17 +34,17 @@
   <img src="media/lavendershowerjelly.jpg" style="width:100%">
 </div>
 
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
+<button class="prev" onclick="plusSlides(-1)">❮</button>
+<button class="next" onclick="plusSlides(1)">❯</button>
 
 </div>
 <a class="context" href="shop.html">Check out our latest products here!</a>
 </div>
 <br>
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot active" onclick="currentSlide(1)"></span>  
   <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 </div>
 </body>
