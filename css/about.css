@@ -63,9 +63,13 @@ body {
   a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: lightblue;
+    background-color: rgb(2, 192, 255);
     color: white;
     text-decoration: none;
     border-radius: 5px;
+  }
+
+  .return-button:hover{
+    opacity: 0.7;
   }
 
