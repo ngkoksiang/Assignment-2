@@ -72,11 +72,3 @@ cursor: pointer;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
-/* Style for footer */
-footer {
-background-color: #333333;
-color: #FFFFFF;
-padding: 20px;
-text-align: center;
-}
