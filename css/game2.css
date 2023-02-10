@@ -1,0 +1,196 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #faf7c8;
+    width: 100%;
+
+}
+
+section {
+    text-align: center;
+}
+
+.game--title {
+    font-size: 100px;
+    color: #d7a62f;
+    margin: 10px auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #11213a;
+    color: #04c0b2;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #ecd7ba;
+    border: 2px solid #ecd7ba;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--status {
+    font-size: 50px;
+    color: #d7a62f;
+    margin: 20px auto;
+}
+
+.game--restart {
+    background-color: #f7e4ac;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #5586e2;
+    box-shadow: 2px 2px 2px 2px #d86c23;
+    border: 2px solid #d86c23;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+
+.endsection {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(245, 240, 192);
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #222;
+    color: white;
+}
+
+.fa-twitter {
+    background: #222;
+    color: white;
+}
+
+.fa-instagram {
+    background: #222;
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer h4{
+    padding-bottom: 20px;
+}
+
+footer p{
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .row{
+    padding-right: 10%;
+    margin: 10px 0 15px 0;
+}
+
+footer .row a:hover{
+    opacity: 0.7;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+
+.to-top{
+    background: #222;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color:white;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+    z-index: 1;
+}
+.to-top.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+    z-index: 1;
+}
+html{
+    scroll-behavior: smooth;
+}
