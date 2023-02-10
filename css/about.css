@@ -56,14 +56,16 @@ body {
   }
   
   .return-button {
+    margin-left: 30%;
     margin-top: 20px;
     text-align: center;
+    background-color: rgb(2, 192, 255);
+    width: 180px;
   }
   
   a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: rgb(2, 192, 255);
     color: white;
     text-decoration: none;
     border-radius: 5px;
