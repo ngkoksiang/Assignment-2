@@ -1,5 +1,6 @@
-/* .cartpage {
+.cartpage {
     background-color: #faf7c8;
+    padding: 50px;
 }
 
 #cart table {
@@ -57,4 +58,60 @@
 
 #cart table tbody td {
     font-size: 13px;
-} */
+}
+
+.applybtn, .proceedbtn {
+    background-color: #222;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+
+#cartadd {
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#coupon {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#coupon h3, #subtotal h3 {
+    padding-bottom: 15px;
+}
+
+#coupon input {
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+}
+
+#subtotal {
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #222;
+    padding: 30px;
+}
+
+#subtotal table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal table td {
+    width: 50%;
+    border: 1px solid #222;
+    padding: 10px;
+    font-size: 13px;
+}
