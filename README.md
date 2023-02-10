@@ -38,3 +38,6 @@ The way we tested was that we tried out the actual website as a user. It was a f
 * https://www.flaticon.com/free-icon/mail_646094?term=email&page=1&position=3&origin=search&related_id=646094
 * https://www.flaticon.com/free-icon/location_535239?term=location&page=1&position=1&origin=search&related_id=535239
 * https://www.flaticon.com/free-icon/clock_3114812?term=clock&page=1&position=9&origin=search&related_id=3114812
+
+* ID LUSH pitch
+https://1drv.ms/v/s!AtPWV4YTzRPl2xLLdr5haUBieh99?e=YzVtuf
